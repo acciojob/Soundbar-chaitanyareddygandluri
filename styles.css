@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+/*  your css code here. If ap
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a164df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn,
+.stop {
+    background-color: #663399;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 24px 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.stop:hover {
+    opacity: 0.8;
+}
+
+.stop {
+    background-color: #333;
+}
+plicable */
